@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #112e34;
+  color: #eefd6f;
+}
+.header-wrapper {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main-title {
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  font-size: 4em;
+  text-align: center;
+}
+.main-subtitle{
+  font-family: "Spartan", sans-serif;
+  font-weight: 200;
+  font-size: 1.2em;
+  text-align: center;
+}
+.heading-underline {
+  height: 0.45rem !important;
+  width: 75%;
+  opacity: 0.78;
+}
+.card-wrapper {
+  margin-top: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.num-box {
+  background-color: #eefd6f;
+  color: #112e34;
+  font-family: "Spartan", sans-serif;
+  font-weight: 900;
+  padding: 2.5rem;
+  border-radius: 50%;
+  text-align: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.5rem;
+}
+.card-heading {
+  font-size: 2.25rem;
+  color: #eefd6f;
+  font-family: "Spartan", sans-serif;
+  font-weight: 800;
+  text-align: left;
+}
+.card-subtitle {
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 1.3rem;
+}
+.card-thirdtitle {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+@media (max-width: 767px) {
+  .card-heading,
+  .card-subtitle,
+  .card-thirdtitle {
+    text-align: center;
+  }
+}
